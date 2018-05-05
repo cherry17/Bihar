@@ -1,0 +1,54 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="app.com.example.cherry.bihar.Transportation"
+    android:background="@drawable/back_dist">
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:text="Bihar has three operational airports at:"
+            android:textSize="20dp"/>
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:text="@string/patna1"
+            android:textSize="20dp"
+            android:paddingTop="20dp"/>
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:text="@string/gaya"
+            android:textSize="20dp"/>
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:text="@string/purnea1"
+            android:textSize="20dp"/>
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:text="The Patna airport is categorised as a restricted international airport,with customs facilities to receive international chartered flights.The Gaya Airport is an international airport connected to Colombo,Singapore,Bangkok,Paro and more."
+            android:textSize="20dp"
+            android:paddingTop="20dp"/>
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:textSize="20dp"
+            android:text="Bihar is very well-connected by railway lines to the rest of India.The state has a vast network of National and State highways.The Ganges – navigable throughout the year – was the principal river highway across the vast north Indo-Gangetic Plain. Vessels capable of accommodating five hundred merchants were known to ply this river in the ancient period; it served as a conduit for overseas trade. The role of the Ganges as a channel for trade was enhanced by its natural links it embraces all the major rivers and streams in both north and south Bihar. In recent times, Inland Waterways Authority of India has declared the Ganges between Allahabad and Haldia to be a national inland waterway and has taken steps to restore its navigability." />
+
+    </LinearLayout>
+
+
+</ScrollView>

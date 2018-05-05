@@ -1,0 +1,140 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="app.com.example.cherry.bihar.Economy">
+
+    <TabHost
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:id="@+id/tabHost2">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical">
+
+    <TabWidget
+        android:id="@android:id/tabs"
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:background="#D29152">
+    </TabWidget>
+
+    <FrameLayout
+        android:id="@android:id/tabcontent"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin"
+        android:paddingBottom="@dimen/activity_vertical_margin">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:id="@+id/stab1">
+        <ImageButton
+            android:layout_width="fill_parent"
+            android:layout_height="200dp"
+            android:src="@drawable/marr"
+            android:scaleType="fitXY"/>
+        <TextView
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:text="The economy of Bihar is largely service-oriented, but it has a significant agricultural base.The state also has a small industrial sector.More recently,Bihar's state GDP recorded a very high growth (in the excess of 10%), making Bihar the fastest growing major state of India."
+         android:textSize="20dp"/>
+        <LinearLayout
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:orientation="horizontal"
+         android:layout_marginTop="10dp">
+        <ImageView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/litchi"/>
+        <TextView
+        android:text="Bihar accounts for 71% of India's litchi production."
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:gravity="center"/>
+        </LinearLayout>
+      </LinearLayout>
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:id="@+id/stab2">
+
+       <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/agri"
+            android:textSize="25dp"
+            android:layout_gravity="center"
+            android:textColor="#228B22"/>
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="2">
+            <ImageView
+                android:layout_width="fill_parent"
+                android:layout_height="200dp"
+                android:src="@drawable/surgane"
+                android:scaleType="fitXY"
+                android:layout_weight="1"/>
+            <ImageView
+                android:layout_width="fill_parent"
+                android:layout_height="200dp"
+                android:src="@drawable/wheat"
+                android:scaleType="fitXY"
+                android:layout_weight="1"/>
+        </LinearLayout>
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Bihar lies in the riverine plain of the Ganga basin area and is endowed with fertile Gangetic alluvial soil with abundant water resources, particularly ground water resources. This makes Bihar's agriculture rich and diverse.Rice, wheat, and maize are the major cereal crops of Bihar,while arhar urad, moong, gram, peas, lentils, and khesaria are some of the pulses crop cultivated in Bihar. Bihar is the largest producer of vegetable  especially potatoes, onions, brinzle, and cauliflower. In fruit cultivation, it is the largest producer of litchi, the third largest producer of pineapples and a major producer of mangoes, bananas, and guava. Sugarcane and jute are the other two major cash crops of Bihar."
+            android:textSize="20dp"/>
+       </LinearLayout>
+
+        <LinearLayout
+         android:layout_width="match_parent"
+         android:layout_height="fill_parent"
+        android:orientation="vertical"
+         android:id="@+id/stab3">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/industry"
+                android:textSize="30dp"
+                android:layout_gravity="center"
+                android:textColor="#228B22"/>
+            <ImageView
+                android:layout_width="fill_parent"
+                android:layout_height="200dp"
+                android:src="@drawable/industry"
+                android:scaleType="fitXY"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Bihar has a very small industrial base compared to the other Indian states including neighbouring Jharkhand.The state of Bihar accounts for nearly about 8.5% of India's population and about 3% of its landmass. In percentage terms of industrial units, Bihar holds only around 1% of factories installed in India. In terms of output value, less than 1% of India's industrial output comes from Bihar. The industrial sector contributes about 5% to the GDP of Bihar, while the share of industrial sector in India's GDP is around 20%. Bihar's industrial sector is dominated by small household and cottage industries. Agro-based industries are major constituents of industrial sector in Bihar."
+                android:textSize="20dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Bihar has significant levels of production of mango, guava ,litchi ,pineapple, brinjal, cauliflower, bhindi  and cabbage .Despite the state's leading role in food production, investment in irrigation and other agriculture facilities has been inadequate. Historically, the sugar and vegetable oil industries were flourishing sectors of Bihar.Until the mid-1950s, 25% of India's sugar output was from Bihar. Dalmianagar was a large agro-industrial town. There were attempts to industrialise the state between 1950 and 1980: an oil refinery in Barauni , a motor scooter plant at Fatuha, and a power plant at Muzaffarpur .However, these were forced to shut down due to certain central government policies (like the Freight Settlement Policy) which neutralised the strategic advantages of Bihar. Barauni  is still one of the few old industrialised towns in the state. Hajipur, near Patna, remains a major industrial town in the Bihar, linked to the capital city through the Ganges bridge and good road infrastructure."
+                android:textSize="20dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="The state's debt was estimated at 77% of GDP by 2007.The Finance Ministry has given top priority to create investment opportunities for big industrial houses like Reliance Industries. Further developments have taken place in the growth of small industries, improvements in IT infrastructure, the new software park in Patna, and the completion of the expressway from the Purvanchal border through Bihar to Jharkhand. In August 2008, a Patna registered company called the Security and Intelligence Services (SIS) India Limited took over the Australian guard and mobile patrol services business of American conglomerate, United Technologies Corporation (UTC). SIS is registered and taxed in Bihar.The capital city, Patna, is one of the better-off cities in India when measured by per capita income.The State Government is setting up an Information Technology (IT) City at Rajgir in Nalanda district. Additionally, India's first Media Hub is also proposed to be set up in Bihar."
+                android:textSize="20dp"/>
+
+
+         </LinearLayout>
+</FrameLayout>
+    </LinearLayout>
+    </TabHost>
+</ScrollView>

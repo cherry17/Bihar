@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Bihar Tour</string>
+    <string name="About"><u><b>ABOUT</b></u></string>
+    <string name="history"><u><b>HISTORY</b></u></string>
+    <string name="culture"><u><b>CULTURE</b></u></string>
+    <string name="division"><b>The State of Bihar is divided into 9 divisions:-</b></string>
+    <string name="patna"><u><b>1. PATNA</b></u></string>
+    <string name="tirhut"><u><b>2. TIRHUT</b></u></string>
+    <string name="saran"><u><b>3. SARAN</b></u></string>
+    <string name="darbhanga"><u><b>4. DARBHANGA</b></u></string>
+    <string name="kosi"><u><b>5. KOSI</b></u></string>
+    <string name="purnia"><u><b>6. PURNIA</b></u></string>
+    <string name="bhagalpur"><u><b>7. BHAGALPUR</b></u></string>
+    <string name="munger"><u><b>8. MUNGER</b></u></string>
+    <string name="magadh"><u><b>9. MAGADH</b></u></string>
+
+    <string name="industry"><u><b>INDUSTRY</b></u></string>
+    <string name="agri"><u><b>AGRICULTURE</b></u></string>
+    <string name="transport"><u><b>TRANSPORTATION</b></u></string>
+    <string name="drawer_open">Open</string>
+    <string name="drawer_close">Close</string>
+
+
+    <string name="pref_default_value">Bihar</string>
+    <string name="map"><u><b>SEE MAP</b></u></string>
+
+    <string name="hello_world">Hello</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_history">History</string>
+    <string name="title_activity_districts">Districts</string>
+    <string name="title_activity_weather">Weather</string>
+    <string name="title_activity_economy">Economy</string>
+    <string name="title_activity_culture">Culture</string>
+    <string name="title_activity_transportation">Transportation</string>
+    <string name="title_activity_tourism">Tourism</string>
+    <string name="title_activity_education">Education</string>
+
+
+    <string name="action_refresh" translatable="false">Refresh</string>
+    <string name="pref_key" translatable="false">location</string>
+    <string name="pref_title">Location</string>
+    <string name="pref_default">800001</string>
+    <string name="title_activity_detail">DetailActivity</string>
+
+    <string name="pref_unit_title">Units</string>
+    <string name="pref_unit_default">Celsius</string>
+    <string name="pref_unit_key">unit</string>
+    <string name="pref_unit_imperial">Fahrenheit</string>
+
+    <string name="action_map">Map</string>
+    <string name="action_share">Share</string>
+    <string-array name="sections_icons">
+        <item>@drawable/history</item>
+        <item>@drawable/districts</item>
+        <item>drawable/weath</item>
+        <item>@drawable/economy</item>
+        <item>@drawable/culture</item>
+        <item>drawable/transport</item>
+        <item>@drawable/tourism</item>
+        <item>@drawable/edu</item>
+    </string-array>
+    <string name="patna1" ><b>1. PATNA </b></string>
+    <string name="gaya"><b>2. GAYA </b></string>
+    <string name="purnea1"><b>3. PURNEA</b></string>
+</resources>
